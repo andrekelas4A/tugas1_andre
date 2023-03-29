@@ -8,11 +8,11 @@ class Coba
     }
 }
 
-$a = new Coba();
-$b = new Coba();
+$ab = new Coba();
+$bc = new Coba();
 
-var_dump($a);
-var_dump($b);
+var_dump($ab);
+var_dump($bc);
 
 
 
