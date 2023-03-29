@@ -22,4 +22,5 @@ $produk2 ->penulis = "Dwi";
 echo $produk1 -> getLabel();
 echo "<br>";
 echo $produk2 -> getLabel();
+echo "<br>";
 ?>
