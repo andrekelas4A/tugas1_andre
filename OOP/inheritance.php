@@ -50,13 +50,13 @@ class Game extends Produk {
 
 class CetakInfoProduk {
     public function cetak(Produk $produk){
-        $str = "$produk->judul | $produk->penulis, $produk->penerbit (Rp.$produk->harga) - $produk->waktuMain Jam";
+        $str = "$produk->judul | $produk->penulis, $produk->penerbit (Rp.$produk->harga) - $produk-> waktuMain Jam";
         return $str;
     }
 }
 
 $produk1 = new Komik("Naruto", "Masashi Nishimoto", "Erlangga", 250000, 150);
-$produk2 = new Game("Uncharted", "Neil", "Pusaka Ilmu", 500000, 50);
+$produk2 = new Game("Uncharted", "Neil", "Pusaka Ilmu", 200000, 50);
 $produk3 = new Produk("Doraemon", "Nishimoto", "Erlangga", 500000);
 $produk4 = new Produk();
 
