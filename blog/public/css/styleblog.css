@@ -1,0 +1,15 @@
+body {
+    background-color: hotpink;
+}
+#tes{
+    color:blue;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.container-content{
+    background-color:hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}

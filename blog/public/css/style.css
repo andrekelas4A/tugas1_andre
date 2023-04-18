@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+#tes{
+    color: red;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+#coba{
+    color: darkmagenta;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+#pre{
+    color: blue;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.container-content{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+

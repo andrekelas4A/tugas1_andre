@@ -1,0 +1,15 @@
+body {
+    background-color:bisque;
+}
+#tes{
+    color: blueviolet;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.container-content{
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
