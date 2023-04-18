@@ -15,10 +15,10 @@
     <br>
     <table border="2" cellspacing="3" cellpadding="5" width="650">
         <tr>
-            <th>Nama</th>
-            <th>Nip</th>
-            <th>No Hp</th>
-            <th>Email</th>
+            <th>NAMA</th>
+            <th>NIP</th>
+            <th>NO HP</th>
+            <th>EMAIL</th>
             <th>AKSI</th>
         </tr>
         <?php

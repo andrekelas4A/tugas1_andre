@@ -15,7 +15,7 @@
     <form method="post" action="tambahpegawai.php">
         <table>
             <tr>
-                <td>Nama</td>
+                <td>NAMA</td>
                 <td><input type="text"name="nama"></td>
             </tr>
             <tr>
@@ -23,11 +23,11 @@
                 <td><input type="text"name="nip"></td>
             </tr>
             <tr>
-                <td>No HP</td>
+                <td>NO HP</td>
                 <td><input type="text"name="noHp"></td>
             </tr>
             <tr>
-                <td>Email</td>
+                <td>EMAIL</td>
                 <td><input type="text"name="email"></td>
             </tr>
             <tr>
