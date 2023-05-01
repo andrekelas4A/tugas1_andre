@@ -1,6 +1,8 @@
 <?php
 
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,21 +16,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view ('home');
+    return view ('home', [
+        "title" =>"Home"
+    ]);
 });
 
 Route::get('/about', function () {
     return view ('about', [
+        "title" =>"About",
         "name" =>"Yulius Andre",
         "email" =>"andrepoliban@gmail.com",
-        "image" =>"kalimantan selatan logo.png"
+        "image" =>"foto formal1.jpg"
     ]);
 });
 
-Route::get('/blog', function () {
-    return view ('posts',[
-        "jalan" =>"Jalan Kayutangi Komplek Unlam",
-        "kantor" =>"Politeknik Negeri Banjarmasin",
-        "image" =>"poliban.jpg"
-    ]);
-});
+//post baru
+Route::get('/blog', [PostController::class, 'index']);
+
+
+//halaman single post
+Route::get('/posts/{slug}', [PostController::class, 'show']);
